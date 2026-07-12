@@ -14,5 +14,5 @@ Sitio web estático listo para GitHub Pages.
 
 ## Contacto
 
-- Email: onboarding@streamerempire.com
+- Email: streamerempire.go@gmail.com
 - WhatsApp: +52 56 6185 8309
