@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 
 <html lang="es">
-<head>
+<head><!-- Favicon and app icons added for browser tabs, bookmarks and mobile previews. -->
 <!-- Streamers-first layout patch: candidate application is the primary entry point. -->
 <!-- Clean URL patch: internal navigation no longer exposes #section fragments in the browser URL. -->
 <meta charset="utf-8"/>
@@ -21,14 +21,14 @@
 <meta content="https://www.streamerempire.com/assets/images/asset-01.png" name="twitter:image"/>
 <link href="assets/css/style.css" rel="stylesheet"/>
 <!-- Streamer application form connected to Google Forms: https://forms.gle/Pxg7KzrS9zDD3qhu7 -->
-</head>
+<link href="assets/icons/favicon-16x16.png" rel="icon" sizes="16x16" type="image/png"/><link href="assets/icons/favicon-32x32.png" rel="icon" sizes="32x32" type="image/png"/><link href="assets/icons/favicon-48x48.png" rel="icon" sizes="48x48" type="image/png"/><link href="assets/icons/favicon.ico" rel="shortcut icon"/><link href="assets/icons/apple-touch-icon.png" rel="apple-touch-icon" sizes="180x180"/><link href="site.webmanifest" rel="manifest"/><meta content="#07050d" name="theme-color"/><meta content="#07050d" name="msapplication-TileColor"/><meta content="1254" property="og:image:width"/><meta content="1254" property="og:image:height"/></head>
 <body>
 <nav class="site-nav">
 <div class="container nav-wrap">
-<a class="brand" href="./"><img alt="Streamer Empire" src="assets/images/asset-01.png"/><span>STREAMER EMPIRE</span></a>
-<div class="nav-actions"><a data-i18n="home" href="./"></a><a class="nav-primary-link" href="https://forms.gle/Pxg7KzrS9zDD3qhu7" rel="noopener noreferrer" target="_blank">Apply as Streamer</a><a data-i18n="requirements" data-scroll-target="requirements" href="/"></a>
+<a class="brand" href="./"><img alt="Streamer Empire" data-i18n-alt="img_logo_alt" src="assets/images/asset-01.png"/><span>STREAMER EMPIRE</span></a>
+<div class="nav-actions"><a data-i18n="home" href="./"></a><a class="nav-primary-link" data-google-form-link="true" data-i18n="nav_apply_streamer" href="https://forms.gle/Pxg7KzrS9zDD3qhu7" rel="noopener noreferrer" target="_blank">Apply as Streamer</a><a data-i18n="requirements" data-scroll-target="requirements" href="/"></a>
 <details class="drop">
-<summary>More</summary>
+<summary data-i18n="nav_more">More</summary>
 <div class="drop-menu">
 <a data-i18n="scouts" data-scroll-target="scouts" href="/"></a>
 <a data-i18n="partners" data-scroll-target="partners" href="/"></a>
@@ -46,30 +46,30 @@
 <section class="hero" id="top"><video autoplay="" loop="" muted="" playsinline=""><source src="assets/videos/video-01.mp4" type="video/mp4"/></video>
 <div class="container hero-split">
 <div class="hero-main">
-<div class="kicker">100% REMOTE · WOMEN STREAMERS</div>
-<h1>Female Streamers Wanted</h1>
-<p class="lead">Speak English? Feel confident on camera? Apply now and upload your photos.</p>
-<p>Streamer Empire is opening remote applications for women streamers. One clear application. One direct form. No confusion.</p>
-<div class="hero-punch">$30 USD/hour after approval</div>
+<div class="kicker" data-i18n="hero_streamer_kicker">100% REMOTE · WOMEN STREAMERS</div>
+<h1 data-i18n="hero_streamer_title">Female Streamers Wanted</h1>
+<p class="lead" data-i18n="hero_streamer_sub">Speak English? Feel confident on camera? Apply now and upload your photos.</p>
+<p data-i18n="hero_streamer_note">Streamer Empire is opening remote applications for women streamers. One clear application. One direct form. No confusion.</p>
+<div class="hero-punch" data-i18n="hero_streamer_pay">$30 USD/hour after approval</div>
 <div class="actions">
-<a class="btn btn-primary btn-big" href="https://forms.gle/Pxg7KzrS9zDD3qhu7" rel="noopener noreferrer" target="_blank">Apply now + upload photos</a>
-<a class="btn btn-secondary" data-scroll-target="streamers" href="/">How it works</a>
+<a class="btn btn-primary btn-big" data-google-form-link="true" data-i18n="hero_apply_photos" href="https://forms.gle/Pxg7KzrS9zDD3qhu7" rel="noopener noreferrer" target="_blank">Apply now + upload photos</a>
+<a class="btn btn-secondary" data-i18n="hero_how_it_works" data-scroll-target="streamers" href="/">How it works</a>
 </div>
-<p class="micro-note">Application-based. Approval required. No guaranteed acceptance or income.</p>
+<p class="micro-note" data-i18n="hero_disclaimer">Application-based. Approval required. No guaranteed acceptance or income.</p>
 </div>
 <aside class="hero-apply-card">
-<div class="kicker">START HERE</div>
-<h2>Apply in Google Forms</h2>
-<p>Complete your information and upload recent photos for final client confirmation.</p>
+<div class="kicker" data-i18n="hero_start_here">START HERE</div>
+<h2 data-i18n="hero_apply_google">Apply in Google Forms</h2>
+<p data-i18n="hero_apply_google_sub">Complete your information and upload recent photos for final client confirmation.</p>
 <ul class="hero-checks">
-<li>Women applicants only, 18+</li>
-<li>English required</li>
-<li>100% remote</li>
-<li>Private room required</li>
-<li>30+ hours per week</li>
-<li>Upload at least 3 recent photos</li>
+<li data-i18n="hero_check_1">Women applicants only, 18+</li>
+<li data-i18n="hero_check_2">English required</li>
+<li data-i18n="hero_check_3">100% remote</li>
+<li data-i18n="hero_check_4">Private room required</li>
+<li data-i18n="hero_check_5">30+ hours per week</li>
+<li data-i18n="hero_check_6">Upload at least 3 recent photos</li>
 </ul>
-<a class="btn btn-primary btn-block" href="https://forms.gle/Pxg7KzrS9zDD3qhu7" rel="noopener noreferrer" target="_blank">Open application form</a>
+<a class="btn btn-primary btn-block" data-google-form-link="true" data-i18n="hero_open_form" href="https://forms.gle/Pxg7KzrS9zDD3qhu7" rel="noopener noreferrer" target="_blank">Open application form</a>
 </aside>
 </div>
 </section><section class="section streamer-application" id="streamers">
@@ -77,36 +77,36 @@
 <div class="streamer-focus-card">
 <div class="streamer-focus-header">
 <div>
-<div class="kicker">OFFICIAL APPLICATION</div>
-<h2>Female Streamer Application</h2>
-<p class="lead">This is the only application form for streamer candidates.</p>
+<div class="kicker" data-i18n="streamer_official_application">OFFICIAL APPLICATION</div>
+<h2 data-i18n="streamer_application_title">Female Streamer Application</h2>
+<p class="lead" data-i18n="streamer_application_lead">This is the only application form for streamer candidates.</p>
 </div>
-<a class="btn btn-primary btn-big" href="https://forms.gle/Pxg7KzrS9zDD3qhu7" rel="noopener noreferrer" target="_blank">Apply now</a>
+<a class="btn btn-primary btn-big" data-google-form-link="true" data-i18n="streamer_apply_now" href="https://forms.gle/Pxg7KzrS9zDD3qhu7" rel="noopener noreferrer" target="_blank">Apply now</a>
 </div>
 <div class="application-steps">
-<div><strong>01</strong><span>Fill in your personal data</span></div>
-<div><strong>02</strong><span>Confirm the requirements</span></div>
-<div><strong>03</strong><span>Upload recent photos</span></div>
-<div><strong>04</strong><span>Wait for review</span></div>
+<div><strong>01</strong><span data-i18n="step_personal">Fill in your personal data</span></div>
+<div><strong>02</strong><span data-i18n="step_requirements">Confirm the requirements</span></div>
+<div><strong>03</strong><span data-i18n="step_photos">Upload recent photos</span></div>
+<div><strong>04</strong><span data-i18n="step_review">Wait for review</span></div>
 </div>
 <div class="streamer-application-grid">
 <div class="streamer-copy">
-<h3>Before you apply</h3>
+<h3 data-i18n="before_apply">Before you apply</h3>
 <ul class="req-list">
-<li>Women applicants only, 18+.</li>
-<li>You must speak English comfortably.</li>
-<li>This is a 100% remote streaming opportunity.</li>
-<li>You need a private room. No one else can appear on camera.</li>
-<li>You need stable internet, good lighting and a suitable device.</li>
-<li>You must be available approximately 30 hours per week.</li>
-<li>You must upload at least 3 recent photos: full body and close-up.</li>
+<li data-i18n="before_apply_1">Women applicants only, 18+.</li>
+<li data-i18n="before_apply_2">You must speak English comfortably.</li>
+<li data-i18n="before_apply_3">This is a 100% remote streaming opportunity.</li>
+<li data-i18n="before_apply_4">You need a private room. No one else can appear on camera.</li>
+<li data-i18n="before_apply_5">You need stable internet, good lighting and a suitable device.</li>
+<li data-i18n="before_apply_6">You must be available approximately 30 hours per week.</li>
+<li data-i18n="before_apply_7">You must upload at least 3 recent photos: full body and close-up.</li>
 </ul>
 </div>
 <div class="streamer-action-box">
-<h3>Ready to apply?</h3>
-<p>Open the official Google Form. Complete the questions and upload your photos. Files are stored through the Google Drive connected to the form owner account.</p>
-<a class="btn btn-primary btn-block" href="https://forms.gle/Pxg7KzrS9zDD3qhu7" rel="noopener noreferrer" target="_blank">Open form + upload photos</a>
-<p class="micro-note">Google may ask you to sign in before uploading photos. This is normal for file uploads.</p>
+<h3 data-i18n="ready_apply">Ready to apply?</h3>
+<p data-i18n="ready_apply_text">Open the official Google Form. Complete the questions and upload your photos. Files are stored through the Google Drive connected to the form owner account.</p>
+<a class="btn btn-primary btn-block" data-google-form-link="true" data-i18n="open_form_photos" href="https://forms.gle/Pxg7KzrS9zDD3qhu7" rel="noopener noreferrer" target="_blank">Open form + upload photos</a>
+<p class="micro-note" data-i18n="google_signin_note">Google may ask you to sign in before uploading photos. This is normal for file uploads.</p>
 </div>
 </div>
 </div>
@@ -138,50 +138,49 @@
 <div class="container">
 <div class="section-head"><div class="meta"><h2 data-i18n="brand_title"></h2><p data-i18n="brand_sub"></p></div><div class="tip" data-i18n="zoom_note"></div></div>
 <div class="grid g2">
-<div class="video-block"><video controls="" playsinline="" poster="assets/images/asset-02.jpg"><source src="assets/videos/video-01.mp4" type="video/mp4"/></video></div>
-<div class="video-block"><video controls="" playsinline="" poster="assets/images/asset-03.jpg"><source src="assets/videos/video-02.mp4" type="video/mp4"/></video></div>
+<div class="video-block"><video controls="" playsinline="" poster="assets/images/asset-02.jpg"><source src="assets/videos/video-01.mp4" type="video/mp4"/></video><span class="media-caption" data-i18n="video_caption_1"></span></div>
+<div class="video-block"><video controls="" playsinline="" poster="assets/images/asset-03.jpg"><source src="assets/videos/video-02.mp4" type="video/mp4"/></video><span class="media-caption" data-i18n="video_caption_2"></span></div>
 </div>
 </div>
 </section>
-
 <section class="section secondary-forms" id="scouts" style="padding-top:10px">
 <div class="container page-shell">
-<div class="panel"><div class="kicker" data-i18n="scouts"></div><h2 data-i18n="form_scout"></h2><p data-i18n="form_intro"></p><form accept-charset="UTF-8" action="https://formsubmit.co/streamerempire.go@gmail.com" class="form-card" method="POST"><input name="form_type" type="hidden" value="scouts"/><input name="_subject" type="hidden" value="New Scout Application - Streamer Empire"/><input name="_template" type="hidden" value="table"/><input name="_next" type="hidden" value="https://www.streamerempire.com/"/><input name="_autoresponse" type="hidden" value="Thank you for contacting Streamer Empire. Your application was received. If your profile matches the requirements, our team will contact you."/><div class="form-grid"><div class="field"><label data-i18n="full_name"></label><input name="full_name" required="required" type="text"/></div><div class="field"><label data-i18n="email"></label><input name="email" required="required" type="email"/></div><div class="field"><label data-i18n="whatsapp"></label><input name="whatsapp" required="required" type="text"/></div><div class="field"><label data-i18n="country"></label><input name="country" required="required" type="text"/></div><div class="field"><label data-i18n="english"></label><select name="english_level" required="required"><option>B2</option><option>C1</option><option>C2</option></select></div><div class="field full"><label data-i18n="socials"></label><textarea name="social_profiles"></textarea></div><div class="field full"><label data-i18n="message"></label><textarea name="message"></textarea></div><div class="field full"><button class="btn btn-primary" data-i18n="send" type="submit"></button></div></div><div class="submit-msg" data-success=""></div></form></div><button class="zoom-wrap" onclick="openLightbox('assets/images/asset-04.jpg')"><img alt="Scouts" src="assets/images/asset-04.jpg"/></button></div>
+<div class="panel"><div class="kicker" data-i18n="scouts"></div><h2 data-i18n="form_scout"></h2><p data-i18n="form_intro"></p><form accept-charset="UTF-8" action="https://formsubmit.co/streamerempire.go@gmail.com" class="form-card" method="POST"><input name="form_type" type="hidden" value="scouts"/><input name="_subject" type="hidden" value="New Scout Application - Streamer Empire"/><input name="_template" type="hidden" value="table"/><input name="_next" type="hidden" value="https://www.streamerempire.com/"/><input name="_autoresponse" type="hidden" value="Thank you for contacting Streamer Empire. Your application was received. If your profile matches the requirements, our team will contact you."/><div class="form-grid"><div class="field"><label data-i18n="full_name"></label><input name="full_name" required="required" type="text"/></div><div class="field"><label data-i18n="email"></label><input name="email" required="required" type="email"/></div><div class="field"><label data-i18n="whatsapp"></label><input name="whatsapp" required="required" type="text"/></div><div class="field"><label data-i18n="country"></label><input name="country" required="required" type="text"/></div><div class="field"><label data-i18n="english"></label><select name="english_level" required="required"><option data-i18n="opt_b2">B2</option><option data-i18n="opt_c1">C1</option><option data-i18n="opt_c2">C2</option></select></div><div class="field full"><label data-i18n="socials"></label><textarea name="social_profiles"></textarea></div><div class="field full"><label data-i18n="message"></label><textarea name="message"></textarea></div><div class="field full"><button class="btn btn-primary" data-i18n="send" type="submit"></button></div></div><div class="submit-msg" data-success=""></div></form></div><button class="zoom-wrap" data-i18n-title="img_scouts_caption" onclick="openLightbox('assets/images/asset-04.jpg')"><img alt="Scouts" data-i18n-alt="img_scouts_alt" src="assets/images/asset-04.jpg"/><span class="media-caption" data-i18n="img_scouts_caption"></span></button></div>
 </section><section class="section" id="partners" style="padding-top:10px">
 <div class="container page-shell">
-<div class="panel"><div class="kicker" data-i18n="partners"></div><h2 data-i18n="form_partner"></h2><p data-i18n="form_intro"></p><form accept-charset="UTF-8" action="https://formsubmit.co/streamerempire.go@gmail.com" class="form-card" method="POST"><input name="form_type" type="hidden" value="partners"/><input name="_subject" type="hidden" value="New Partner Inquiry - Streamer Empire"/><input name="_template" type="hidden" value="table"/><input name="_next" type="hidden" value="https://www.streamerempire.com/"/><input name="_autoresponse" type="hidden" value="Thank you for contacting Streamer Empire. Your application was received. If your profile matches the requirements, our team will contact you."/><div class="form-grid"><div class="field"><label data-i18n="company"></label><input name="company" required="required" type="text"/></div><div class="field"><label data-i18n="contact_person"></label><input name="contact_person" required="required" type="text"/></div><div class="field"><label data-i18n="email"></label><input name="email" required="required" type="email"/></div><div class="field"><label data-i18n="whatsapp"></label><input name="whatsapp" required="required" type="text"/></div><div class="field"><label data-i18n="partner_type"></label><select name="partner_type" required="required"><option>Brand</option><option>Agency</option><option>Studio</option><option>Database</option><option>Recruitment partner</option></select></div><div class="field"><label data-i18n="country"></label><input name="country" required="required" type="text"/></div><div class="field full"><label data-i18n="message"></label><textarea name="message"></textarea></div><div class="field full"><button class="btn btn-primary" data-i18n="send" type="submit"></button></div></div><div class="submit-msg" data-success=""></div></form></div>
-<button class="zoom-wrap" onclick="openLightbox('assets/images/asset-03.jpg')"><img alt="Partners" src="assets/images/asset-03.jpg"/></button>
+<div class="panel"><div class="kicker" data-i18n="partners"></div><h2 data-i18n="form_partner"></h2><p data-i18n="form_intro"></p><form accept-charset="UTF-8" action="https://formsubmit.co/streamerempire.go@gmail.com" class="form-card" method="POST"><input name="form_type" type="hidden" value="partners"/><input name="_subject" type="hidden" value="New Partner Inquiry - Streamer Empire"/><input name="_template" type="hidden" value="table"/><input name="_next" type="hidden" value="https://www.streamerempire.com/"/><input name="_autoresponse" type="hidden" value="Thank you for contacting Streamer Empire. Your application was received. If your profile matches the requirements, our team will contact you."/><div class="form-grid"><div class="field"><label data-i18n="company"></label><input name="company" required="required" type="text"/></div><div class="field"><label data-i18n="contact_person"></label><input name="contact_person" required="required" type="text"/></div><div class="field"><label data-i18n="email"></label><input name="email" required="required" type="email"/></div><div class="field"><label data-i18n="whatsapp"></label><input name="whatsapp" required="required" type="text"/></div><div class="field"><label data-i18n="partner_type"></label><select name="partner_type" required="required"><option data-i18n="opt_brand">Brand</option><option data-i18n="opt_agency">Agency</option><option data-i18n="opt_studio">Studio</option><option data-i18n="opt_database">Database</option><option data-i18n="opt_recruitment_partner">Recruitment partner</option></select></div><div class="field"><label data-i18n="country"></label><input name="country" required="required" type="text"/></div><div class="field full"><label data-i18n="message"></label><textarea name="message"></textarea></div><div class="field full"><button class="btn btn-primary" data-i18n="send" type="submit"></button></div></div><div class="submit-msg" data-success=""></div></form></div>
+<button class="zoom-wrap" data-i18n-title="img_brand_secondary_caption" onclick="openLightbox('assets/images/asset-03.jpg')"><img alt="Partners" data-i18n-alt="img_brand_secondary_alt" src="assets/images/asset-03.jpg"/><span class="media-caption" data-i18n="img_brand_secondary_caption"></span></button>
 </div>
 </section>
 <section class="section" id="talent" style="padding-top:10px">
 <div class="container page-shell">
-<button class="zoom-wrap" onclick="openLightbox('assets/images/asset-05.svg')"><img alt="Talent Pool" src="assets/images/asset-05.svg"/></button>
-<div class="panel"><div class="kicker" data-i18n="talent"></div><h2 data-i18n="form_talent"></h2><p data-i18n="form_intro"></p><form accept-charset="UTF-8" action="https://formsubmit.co/streamerempire.go@gmail.com" class="form-card" method="POST"><input name="form_type" type="hidden" value="talent"/><input name="_subject" type="hidden" value="New Talent Bank Application - Streamer Empire"/><input name="_template" type="hidden" value="table"/><input name="_next" type="hidden" value="https://www.streamerempire.com/"/><input name="_autoresponse" type="hidden" value="Thank you for contacting Streamer Empire. Your application was received. If your profile matches the requirements, our team will contact you."/><div class="form-grid"><div class="field"><label data-i18n="full_name"></label><input name="full_name" required="required" type="text"/></div><div class="field"><label data-i18n="email"></label><input name="email" required="required" type="email"/></div><div class="field"><label data-i18n="whatsapp"></label><input name="whatsapp" required="required" type="text"/></div><div class="field"><label data-i18n="country"></label><input name="country" required="required" type="text"/></div><div class="field"><label data-i18n="talent_type"></label><select name="talent_type" required="required"><option>Creator</option><option>Streamer</option><option>Model</option><option>Host</option><option>Moderator</option><option>Other</option></select></div><div class="field"><label data-i18n="english"></label><select name="english_level" required="required"><option>A2</option><option>B1</option><option>B2</option><option>C1</option><option>C2</option></select></div><div class="field full"><label data-i18n="socials"></label><textarea name="social_profiles"></textarea></div><div class="field full"><label data-i18n="message"></label><textarea name="message"></textarea></div><div class="field full"><button class="btn btn-primary" data-i18n="send" type="submit"></button></div></div><div class="submit-msg" data-success=""></div></form></div>
+<button class="zoom-wrap" data-i18n-title="img_talent_caption" onclick="openLightbox('assets/images/asset-05.svg')"><img alt="Talent Pool" data-i18n-alt="img_talent_alt" src="assets/images/asset-05.svg"/><span class="media-caption" data-i18n="img_talent_caption"></span></button>
+<div class="panel"><div class="kicker" data-i18n="talent"></div><h2 data-i18n="form_talent"></h2><p data-i18n="form_intro"></p><form accept-charset="UTF-8" action="https://formsubmit.co/streamerempire.go@gmail.com" class="form-card" method="POST"><input name="form_type" type="hidden" value="talent"/><input name="_subject" type="hidden" value="New Talent Bank Application - Streamer Empire"/><input name="_template" type="hidden" value="table"/><input name="_next" type="hidden" value="https://www.streamerempire.com/"/><input name="_autoresponse" type="hidden" value="Thank you for contacting Streamer Empire. Your application was received. If your profile matches the requirements, our team will contact you."/><div class="form-grid"><div class="field"><label data-i18n="full_name"></label><input name="full_name" required="required" type="text"/></div><div class="field"><label data-i18n="email"></label><input name="email" required="required" type="email"/></div><div class="field"><label data-i18n="whatsapp"></label><input name="whatsapp" required="required" type="text"/></div><div class="field"><label data-i18n="country"></label><input name="country" required="required" type="text"/></div><div class="field"><label data-i18n="talent_type"></label><select name="talent_type" required="required"><option data-i18n="opt_creator">Creator</option><option data-i18n="opt_streamer">Streamer</option><option data-i18n="opt_model">Model</option><option data-i18n="opt_host">Host</option><option data-i18n="opt_moderator">Moderator</option><option data-i18n="opt_other">Other</option></select></div><div class="field"><label data-i18n="english"></label><select name="english_level" required="required"><option data-i18n="opt_a2">A2</option><option data-i18n="opt_b1">B1</option><option data-i18n="opt_b2">B2</option><option data-i18n="opt_c1">C1</option><option data-i18n="opt_c2">C2</option></select></div><div class="field full"><label data-i18n="socials"></label><textarea name="social_profiles"></textarea></div><div class="field full"><label data-i18n="message"></label><textarea name="message"></textarea></div><div class="field full"><button class="btn btn-primary" data-i18n="send" type="submit"></button></div></div><div class="submit-msg" data-success=""></div></form></div>
 </div>
 </section>
 <section class="section" id="contact">
 <div class="container contact-grid">
 <div class="panel">
 <div class="kicker" data-i18n="contact"></div><h2 data-i18n="contact_title"></h2><p data-i18n="contact_sub"></p>
-<p><a class="contact-link" href="mailto:streamerempire.go@gmail.com?subject=Streamer%20Empire%20Inquiry"><strong>streamerempire.go@gmail.com</strong></a><br><a class="contact-link" href="https://wa.me/525661858309" rel="noopener noreferrer" target="_blank"><strong>+52 56 6185 8309</strong></a><br><strong>streamerempire.com</strong></br></br></p>
+<p><a class="contact-link" href="mailto:streamerempire.go@gmail.com?subject=Streamer%20Empire%20Inquiry"><strong>streamerempire.go@gmail.com</strong></a><br/><a class="contact-link" href="https://wa.me/525661858309" rel="noopener noreferrer" target="_blank"><strong>+52 56 6185 8309</strong></a><br/><strong>streamerempire.com</strong></p>
 <div class="socials"><a aria-label="Instagram" class="social" href="https://www.instagram.com/streamer_empire?utm_source=qr&amp;igsh=MXJwenZvd3l1ODBvcA==" rel="noopener" target="_blank"><svg viewbox="0 0 24 24"><path d="M7 2h10a5 5 0 0 1 5 5v10a5 5 0 0 1-5 5H7a5 5 0 0 1-5-5V7a5 5 0 0 1 5-5Zm0 2a3 3 0 0 0-3 3v10a3 3 0 0 0 3 3h10a3 3 0 0 0 3-3V7a3 3 0 0 0-3-3H7Zm5 4.2A3.8 3.8 0 1 1 12 15.8a3.8 3.8 0 0 1 0-7.6Zm0 2A1.8 1.8 0 1 0 12 13.8a1.8 1.8 0 0 0 0-3.6Zm4.4-2.9a1 1 0 1 0 0 2a1 1 0 0 0 0-2Z"></path></svg><span>Instagram</span></a><a aria-label="TikTok" class="social" href="https://www.tiktok.com/@streamer.empire?is_from_webapp=1&amp;sender_device=pc" rel="noopener" target="_blank"><svg viewbox="0 0 24 24"><path d="M16 3c.5 2.8 2.1 4.4 5 4.6v3.1a8.7 8.7 0 0 1-5-1.6v6.2A6 6 0 1 1 10 9.4h.9v3.3a2.7 2.7 0 1 0 1.9 2.6V3H16Z"></path></svg><span>TikTok</span></a><a aria-label="YouTube" class="social" href="https://www.youtube.com/@Streamer-Empire-go" rel="noopener" target="_blank"><svg viewbox="0 0 24 24"><path d="M21.6 7.2a3 3 0 0 0-2.1-2.1C17.6 4.6 12 4.6 12 4.6s-5.6 0-7.5.5a3 3 0 0 0-2.1 2.1A31 31 0 0 0 2 12a31 31 0 0 0 .4 4.8 3 3 0 0 0 2.1 2.1c1.9.5 7.5.5 7.5.5s5.6 0 7.5-.5a3 3 0 0 0 2.1-2.1A31 31 0 0 0 22 12a31 31 0 0 0-.4-4.8ZM10 15.5v-7l6 3.5-6 3.5Z"></path></svg><span>YouTube</span></a><a aria-label="Facebook" class="social" href="https://www.facebook.com/streamerempire/" rel="noopener" target="_blank"><svg viewbox="0 0 24 24"><path d="M14 8h3V4h-3c-3 0-5 2-5 5v2H6v4h3v7h4v-7h3.2l.8-4h-4V9c0-.7.3-1 1-1Z"></path></svg><span>Facebook</span></a><a aria-label="Twitch" class="social" href="https://www.twitch.tv/streamerempire/" rel="noopener" target="_blank"><svg viewbox="0 0 24 24"><path d="M4 3h16v11l-4 4h-4l-2 3H8v-3H4V3Zm2 2v11h4v2l2-2h4l2-2V5H6Zm4 3h2v5h-2V8Zm5 0h2v5h-2V8Z"></path></svg><span>Twitch</span></a></div>
 </div>
 <div class="grid" style="gap:17px">
-<button class="zoom-wrap" onclick="openLightbox('assets/images/asset-06.jpg')"><img alt="Contact" src="assets/images/asset-06.jpg"/></button>
-<button class="zoom-wrap" onclick="openLightbox('assets/images/asset-07.jpg')"><img alt="Contact secondary" src="assets/images/asset-07.jpg"/></button>
+<button class="zoom-wrap" data-i18n-title="img_contact_caption" onclick="openLightbox('assets/images/asset-06.jpg')"><img alt="Contact" data-i18n-alt="img_contact_alt" src="assets/images/asset-06.jpg"/><span class="media-caption" data-i18n="img_contact_caption"></span></button>
+<button class="zoom-wrap" data-i18n-title="img_contact_secondary_caption" onclick="openLightbox('assets/images/asset-07.jpg')"><img alt="Contact secondary" data-i18n-alt="img_contact_secondary_alt" src="assets/images/asset-07.jpg"/><span class="media-caption" data-i18n="img_contact_secondary_caption"></span></button>
 </div>
 </div>
 </section>
-<section class="section" id="thank-you"><div class="container"><div class="panel"><div class="kicker">Application sent</div><h2>Thank you. Your application was received.</h2><p>If your profile matches the requirements, Streamer Empire will contact you by email or WhatsApp.</p></div></div></section><section class="section" id="legal">
+<section class="section" id="thank-you"><div class="container"><div class="panel"><div class="kicker" data-i18n="thank_you_kicker">Application sent</div><h2 data-i18n="thank_you_title">Thank you. Your application was received.</h2><p data-i18n="thank_you_text">If your profile matches the requirements, Streamer Empire will contact you by email or WhatsApp.</p></div></div></section><section class="section" id="legal">
 <div class="container">
 <div class="panel">
 <div class="kicker" data-i18n="legal"></div><h2 data-i18n="legal_title"></h2><p data-i18n="legal_sub"></p>
-<div class="actions"><a class="btn btn-primary" download="streamer-empire-legal-summary.txt" href="data:text/plain;charset=utf-8,STREAMER%20EMPIRE%20LEGAL%20SUMMARY%0A%0AStreamer%20Empire%20acts%20as%20an%20intermediary%20and%20does%20not%20guarantee%20hiring%2C%20income%2C%20campaign%20participation%2C%20acceptance%2C%20retention%20or%20results.">Legal</a></div>
+<div class="actions"><a class="btn btn-primary" data-i18n="legal" download="streamer-empire-legal-summary.txt" href="data:text/plain;charset=utf-8,STREAMER%20EMPIRE%20LEGAL%20SUMMARY%0A%0AStreamer%20Empire%20acts%20as%20an%20intermediary%20and%20does%20not%20guarantee%20hiring%2C%20income%2C%20campaign%20participation%2C%20acceptance%2C%20retention%20or%20results.">Legal</a></div>
 </div>
 </div>
 </section>
-<footer class="footer"><div class="container footer-wrap"><div class="brand"><img alt="Logo" src="assets/images/asset-01.png"/><span>STREAMER EMPIRE</span></div><p style="margin:0">Streamer Empire · Plataforma profesional de intermediación para talento digital</p></div></footer>
-<a class="btn wa" href="https://wa.me/525661858309" rel="noopener noreferrer" target="_blank">WhatsApp</a>
+<footer class="footer"><div class="container footer-wrap"><div class="brand"><img alt="Logo" data-i18n-alt="img_logo_alt" src="assets/images/asset-01.png"/><span>STREAMER EMPIRE</span></div><p data-i18n="footer_tagline" style="margin:0">Streamer Empire · Plataforma profesional de intermediación para talento digital</p></div></footer>
+<a class="btn wa" data-i18n="whatsapp_label" href="https://wa.me/525661858309" rel="noopener noreferrer" target="_blank">WhatsApp</a>
 <div class="lightbox" id="lightbox" onclick="closeLightbox(event)"><button class="closex" onclick="document.getElementById('lightbox').classList.remove('open')">×</button><img alt="Zoom" id="lightboxImg"/></div>
 <script src="assets/js/translations.js"></script>
 <script src="assets/js/app.js"></script>
