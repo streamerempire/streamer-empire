@@ -13,7 +13,7 @@ Se sustituyó únicamente el `index.html` por la versión con los parches solici
    - La sección Streamers ya no usa el formulario interno.
    - Ahora muestra un bloque con el mismo estilo visual de Streamer Empire.
    - El botón abre el Google Form oficial:
-     https://forms.gle/Pxg7KzrS9zDD3qhu7
+     https://forms.gle/f8E3WkikswMNkfTh8
 
 2. **Carga de imágenes**
    - Las candidatas podrán subir imágenes desde Google Forms.

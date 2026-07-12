@@ -18,7 +18,7 @@ Se mantuvo la base final previamente revisada y se aplicó el cambio solicitado:
    - Ya no comparte espacio con Scouts, Partners ni Talent Bank.
    - No hay formulario interno confuso en esa sección.
    - Sólo hay acceso directo al Google Form oficial:
-     https://forms.gle/Pxg7KzrS9zDD3qhu7
+     https://forms.gle/f8E3WkikswMNkfTh8
 
 3. **Carga de fotografías**
    - La aplicación streamer abre Google Forms.

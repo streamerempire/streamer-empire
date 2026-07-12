@@ -5,7 +5,7 @@ function t(k){
   return set[k]||((window.SE_TR.en||{})[k])||k;
 }
 function googleFormUrlForLang(l){
-  const base='https://forms.gle/Pxg7KzrS9zDD3qhu7';
+  const base='https://forms.gle/f8E3WkikswMNkfTh8';
   const map={es:'es',en:'en',nz:'en',it:'it',fr:'fr',pt:'pt-BR',ko:'ko',zh:'zh-CN',ja:'ja'};
   const hl=map[l]||'en';
   return base + '?hl=' + encodeURIComponent(hl);

@@ -69,7 +69,7 @@ Imágenes con alt traducible:
 
 Los enlaces al Google Form siguen apuntando al formulario oficial:
 
-https://forms.gle/Pxg7KzrS9zDD3qhu7
+https://forms.gle/f8E3WkikswMNkfTh8
 
 Además, los enlaces del formulario ahora son sensibles al idioma y agregan `hl` automáticamente según el idioma seleccionado cuando Google lo soporta.
 
