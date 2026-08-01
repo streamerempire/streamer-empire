@@ -1,1 +1,1 @@
-<script src="streamer-content-patch.js"></script>
+<script src="streamer-social-links-patch.js"></script>
